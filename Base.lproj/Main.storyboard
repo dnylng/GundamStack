@@ -28,8 +28,12 @@
                                     <constraint firstAttribute="height" constant="50" id="HL3-7V-it1"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gundam-1" translatesAutoresizingMaskIntoConstraints="NO" id="qeZ-V9-gqx">
-                                <rect key="frame" x="25" y="97" width="718" height="383"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gundam-1" translatesAutoresizingMaskIntoConstraints="NO" id="qeZ-V9-gqx">
+                                <rect key="frame" x="62" y="125" width="644" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gundam-2" translatesAutoresizingMaskIntoConstraints="NO" id="8Jf-Fe-hms">
+                                <rect key="frame" x="62" y="521" width="240" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -47,6 +51,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gundam-1" width="3634" height="2221"/>
+        <image name="gundam-1" width="370" height="370"/>
+        <image name="gundam-2" width="370" height="370"/>
     </resources>
 </document>
